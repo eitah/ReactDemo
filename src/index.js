@@ -2,18 +2,20 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Counter from './Counter'
-
+import Like from './Like'
+import Greeting from './Greeting';
+import Bucket from './Bucket';
+import Weather from './Weather';
 
 
 
 render(
   <div>
-    <h3>Counter</h3>
-    <Counter start={Math.floor(Math.random() * 10)} />
-    <Counter start={2} />
+    <Weather />
   </div>, document.getElementById('root'));
-
-
+  // <h3>Counter</h3>
+  // <Counter start={Math.floor(Math.random() * 10)} />
+  // <Like start={0} />
   //import Temperature from './Temperature';
   // import Product from './Product';
   // import Statistics from './Statistics';
